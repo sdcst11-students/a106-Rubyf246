@@ -16,3 +16,15 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+a = "Give me the height number, then press enter."
+answerF = input(a)
+b = "Give me the radius number, then press enter and see the result."
+answerS = input (b)
+Fanswer = float(answerF)
+Sanswer = float(answerS)
+equation = (Fanswer**2) + (Sanswer**2)
+slant = equation**(1/2)
+pI = 3.14
+sequation = pI * Sanswer**2 + pI * Sanswer * slant
+print (f"SA: {sequation}")
